@@ -1,0 +1,20 @@
+ 1) Writing list1 using string: 'Hello world, how are you?'
+ 2) list has 5 strings and 25 characters
+ 3) Writing list2 using string: 'Hello world, where is everyone going?'
+ 4) list has 6 strings and 37 characters
+
+ 5) comparing list1 and list2 according to different keys:
+
+      key = 3 --> strcmpInList = -1
+      key = 1 --> strcmpInList = 0
+      key = 2 --> strcmpInList = 0
+      key = 7 --> strcmpInList = 0
+      key = 5 --> strcmpInList = 1
+      key = 4 --> strcmpInList = -1
+      key = 6 --> strcmpInList = -1
+
+ 6) comparing list1 and list2 according to different prioritized key lists:
+     keys =  { 3 1 2 7 5 4 6} --> strListCmp = -1
+     keys =  { 1 2 7 5 4 6} --> strListCmp = 1
+     keys =  { 1 2 7} --> strListCmp = 0
+Done.

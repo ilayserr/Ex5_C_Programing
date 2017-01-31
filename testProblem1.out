@@ -1,0 +1,71 @@
+ 1) Creating new string list with following sentence:
+	This is a long sentence
+	with more than 10 words.	
+	1st word is "This"
+ 2) List has 14 strings and 67 chars
+ 3) Number of strings returned by strListFromWords is identical to number returned by numStrsInList
+ 4) The sentence string itself is a "list" with 1 string and 71 chars
+
+ 5) Applying nextStrInList iteratively on string list...
+     String no.  1 in list is 'This'
+     String no.  2 in list is 'is'
+     String no.  3 in list is 'a'
+     String no.  4 in list is 'long'
+     String no.  5 in list is 'sentence'
+     String no.  6 in list is 'with'
+     String no.  7 in list is 'more'
+     String no.  8 in list is 'than'
+     String no.  9 in list is '10'
+     String no. 10 in list is 'words.'
+     String no. 11 in list is '1st'
+     String no. 12 in list is 'word'
+     String no. 13 in list is 'is'
+     String no. 14 in list is '"This"'
+ 6) Applying nextStrInList one more time yields NULL
+
+ 7) Resetting nextStrInList using NULL list.
+ 8) Applying nextStrInList iteratively again, but doing this a bit differently (with differernt outcome)...
+     Next string is 'This'
+     Next string is 'is'
+     Next string is 'is'
+     Next string is 'a'
+     Next string is 'a'
+     Next string is 'long'
+     Next string is 'long'
+     Next string is 'sentence'
+     Next string is 'sentence'
+     Next string is 'with'
+     Next string is 'with'
+     Next string is 'more'
+     Next string is 'more'
+     Next string is 'than'
+     Next string is 'than'
+     Next string is '10'
+     Next string is '10'
+     Next string is 'words.'
+     Next string is 'words.'
+     Next string is '1st'
+     Next string is '1st'
+     Next string is 'word'
+     Next string is 'word'
+     Next string is 'is'
+     Next string is 'is'
+     Next string is '"This"'
+     Next string is '"This"'
+
+ 9) writing new list with string = 'Hello world !'
+10) List has 3 strings and 13 chars
+11) Number of strings returned by strListFromWords is identical to number returned by numStrsInList
+12) creating list2 with string = 'Hello world !'
+13) List2 has 3 strings and 13 chars
+
+14) Applying nextStrInList on list2 produces 1st word: 'Hello'
+15) Applying nextStrInList on list produces 1st word (different list): 'Hello'
+16) Applying nextStrInList on list once more produces 2nd word:        'world'
+
+17) Freeing list2
+18) Emptying list
+18) Emptied list has 0 strings and 0 chars
+
+18) Applying nextString on list (now empty) produces an odd result: !
+Done.
